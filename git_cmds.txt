@@ -3,3 +3,12 @@ git add <file_name>
 git add .
 git commit -m "<message>"
 git status
+
+
+git branch <branch_name>
+git checkout <branch_name>
+
+git merge <branch_name>
+
+git branch -d <branch_name> -- locally
+git push origin --delete <branch_name> -- delete from remote
